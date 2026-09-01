@@ -1,0 +1,2524 @@
+{
+  "demoCaseId": "CASE-26151-07",
+  "demoActorId": "ACT-001",
+  "demoTimeline": [
+    {
+      "id": "TL-D01",
+      "actorId": "ACT-001",
+      "date": "2025-11-04",
+      "category": "Identity",
+      "label": "First alias observed (ShadowVector)"
+    },
+    {
+      "id": "TL-D02",
+      "actorId": "ACT-001",
+      "date": "2025-12-17",
+      "category": "Identity",
+      "label": "PGP fingerprint appears"
+    },
+    {
+      "id": "TL-D03",
+      "actorId": "ACT-001",
+      "date": "2026-01-09",
+      "category": "Blockchain",
+      "label": "Wallet associated"
+    },
+    {
+      "id": "TL-D04",
+      "actorId": "ACT-001",
+      "date": "2026-03-14",
+      "category": "Marketplace",
+      "label": "Marketplace migration detected"
+    },
+    {
+      "id": "TL-D05",
+      "actorId": "ACT-001",
+      "date": "2026-05-22",
+      "category": "Persona",
+      "label": "New persona appears (vector_ops)"
+    },
+    {
+      "id": "TL-D06",
+      "actorId": "ACT-001",
+      "date": "2026-08-29",
+      "category": "Infrastructure",
+      "label": "Infrastructure relationship detected"
+    }
+  ],
+  "attributionFactors": [
+    {
+      "label": "PGP reuse",
+      "weight": 24
+    },
+    {
+      "label": "Wallet relationship",
+      "weight": 21
+    },
+    {
+      "label": "Writing similarity",
+      "weight": 18
+    },
+    {
+      "label": "Behaviour similarity",
+      "weight": 13
+    },
+    {
+      "label": "Infrastructure match",
+      "weight": 11
+    }
+  ],
+  "attributionMatrix": [
+    {
+      "name": "Identity Similarity",
+      "value": 94,
+      "tag": "Very Strong"
+    },
+    {
+      "name": "PGP Relationship",
+      "value": 91,
+      "tag": "Very Strong"
+    },
+    {
+      "name": "Wallet Relationship",
+      "value": 89,
+      "tag": "Strong"
+    },
+    {
+      "name": "Infrastructure Correlation",
+      "value": 87,
+      "tag": "Strong"
+    },
+    {
+      "name": "Stylometric Similarity",
+      "value": 81,
+      "tag": "Strong"
+    },
+    {
+      "name": "Behavioural Similarity",
+      "value": 78,
+      "tag": "Moderate"
+    },
+    {
+      "name": "Timeline Overlap",
+      "value": 90,
+      "tag": "Very Strong"
+    },
+    {
+      "name": "Source Reliability",
+      "value": 74,
+      "tag": "Moderate"
+    }
+  ],
+  "overallAttribution": 88,
+  "actors": [
+    {
+      "id": "ACT-001",
+      "alias": "ShadowFox",
+      "confidence": 88,
+      "category": "Credential Trading",
+      "firstSeen": "2025-11-04",
+      "lastSeen": "2026-08-29",
+      "status": "ACTIVE INVESTIGATION",
+      "riskLevel": "HIGH PRIORITY"
+    },
+    {
+      "id": "ACT-002",
+      "alias": "NullFerrous",
+      "confidence": 56,
+      "category": "Access Broker",
+      "firstSeen": "2025-06-12",
+      "lastSeen": "2026-07-13",
+      "status": "DORMANT",
+      "riskLevel": "MODERATE"
+    },
+    {
+      "id": "ACT-003",
+      "alias": "CipherWraith",
+      "confidence": 60,
+      "category": "Exploit Sales",
+      "firstSeen": "2025-02-23",
+      "lastSeen": "2026-02-25",
+      "status": "UNDER REVIEW",
+      "riskLevel": "ELEVATED"
+    },
+    {
+      "id": "ACT-004",
+      "alias": "AshenRoute",
+      "confidence": 78,
+      "category": "Exploit Sales",
+      "firstSeen": "2025-07-08",
+      "lastSeen": "2026-04-14",
+      "status": "DORMANT",
+      "riskLevel": "MODERATE"
+    },
+    {
+      "id": "ACT-005",
+      "alias": "ObsidianDrift",
+      "confidence": 77,
+      "category": "Malware Distribution",
+      "firstSeen": "2025-02-24",
+      "lastSeen": "2026-02-12",
+      "status": "DORMANT",
+      "riskLevel": "HIGH"
+    },
+    {
+      "id": "ACT-006",
+      "alias": "ColdSignal",
+      "confidence": 79,
+      "category": "Data Extortion",
+      "firstSeen": "2025-05-09",
+      "lastSeen": "2026-01-23",
+      "status": "ACTIVE INVESTIGATION",
+      "riskLevel": "HIGH"
+    },
+    {
+      "id": "ACT-007",
+      "alias": "RedlineFox",
+      "confidence": 62,
+      "category": "Ransomware Affiliate",
+      "firstSeen": "2024-12-04",
+      "lastSeen": "2026-07-28",
+      "status": "MONITORED",
+      "riskLevel": "ELEVATED"
+    },
+    {
+      "id": "ACT-008",
+      "alias": "BlackglassNode",
+      "confidence": 57,
+      "category": "Exploit Sales",
+      "firstSeen": "2025-10-20",
+      "lastSeen": "2026-07-13",
+      "status": "UNDER REVIEW",
+      "riskLevel": "HIGH"
+    },
+    {
+      "id": "ACT-009",
+      "alias": "NyxRunner",
+      "confidence": 65,
+      "category": "Money Laundering Services",
+      "firstSeen": "2025-04-12",
+      "lastSeen": "2026-02-23",
+      "status": "MONITORED",
+      "riskLevel": "MODERATE"
+    },
+    {
+      "id": "ACT-010",
+      "alias": "VaultCinder",
+      "confidence": 71,
+      "category": "Carding Operation",
+      "firstSeen": "2025-01-31",
+      "lastSeen": "2026-06-26",
+      "status": "DORMANT",
+      "riskLevel": "HIGH"
+    },
+    {
+      "id": "ACT-011",
+      "alias": "StaticReaper",
+      "confidence": 86,
+      "category": "Money Laundering Services",
+      "firstSeen": "2025-11-13",
+      "lastSeen": "2026-03-04",
+      "status": "DORMANT",
+      "riskLevel": "ELEVATED"
+    },
+    {
+      "id": "ACT-012",
+      "alias": "WireHex",
+      "confidence": 80,
+      "category": "Credential Trading",
+      "firstSeen": "2025-01-21",
+      "lastSeen": "2026-04-15",
+      "status": "UNDER REVIEW",
+      "riskLevel": "MODERATE"
+    },
+    {
+      "id": "ACT-013",
+      "alias": "FrostWraith",
+      "confidence": 57,
+      "category": "Carding Operation",
+      "firstSeen": "2025-09-17",
+      "lastSeen": "2026-03-26",
+      "status": "UNDER REVIEW",
+      "riskLevel": "MODERATE"
+    },
+    {
+      "id": "ACT-014",
+      "alias": "EmberRoot",
+      "confidence": 81,
+      "category": "Access Broker",
+      "firstSeen": "2025-01-11",
+      "lastSeen": "2026-04-12",
+      "status": "ACTIVE INVESTIGATION",
+      "riskLevel": "ELEVATED"
+    },
+    {
+      "id": "ACT-015",
+      "alias": "PhantomLedger",
+      "confidence": 63,
+      "category": "Money Laundering Services",
+      "firstSeen": "2025-03-26",
+      "lastSeen": "2026-03-28",
+      "status": "UNDER REVIEW",
+      "riskLevel": "ELEVATED"
+    },
+    {
+      "id": "ACT-016",
+      "alias": "QuietCinder",
+      "confidence": 78,
+      "category": "Money Laundering Services",
+      "firstSeen": "2025-05-10",
+      "lastSeen": "2026-05-30",
+      "status": "DORMANT",
+      "riskLevel": "ELEVATED"
+    },
+    {
+      "id": "ACT-017",
+      "alias": "HalcyonBreach",
+      "confidence": 80,
+      "category": "Credential Trading",
+      "firstSeen": "2024-09-02",
+      "lastSeen": "2026-04-17",
+      "status": "DORMANT",
+      "riskLevel": "HIGH"
+    },
+    {
+      "id": "ACT-018",
+      "alias": "IronVector",
+      "confidence": 56,
+      "category": "Data Extortion",
+      "firstSeen": "2025-02-21",
+      "lastSeen": "2026-04-16",
+      "status": "ACTIVE INVESTIGATION",
+      "riskLevel": "HIGH"
+    },
+    {
+      "id": "ACT-019",
+      "alias": "MonochromeFox",
+      "confidence": 66,
+      "category": "Carding Operation",
+      "firstSeen": "2025-06-20",
+      "lastSeen": "2026-08-08",
+      "status": "MONITORED",
+      "riskLevel": "ELEVATED"
+    },
+    {
+      "id": "ACT-020",
+      "alias": "LatentSignal",
+      "confidence": 89,
+      "category": "Credential Trading",
+      "firstSeen": "2024-07-11",
+      "lastSeen": "2026-04-29",
+      "status": "ACTIVE INVESTIGATION",
+      "riskLevel": "MODERATE"
+    }
+  ],
+  "aliases": [
+    {
+      "id": "AL-001",
+      "actorId": "ACT-001",
+      "handle": "Shadow_Fox",
+      "platform": "IronVeil Bazaar",
+      "firstSeen": "2026-03-14"
+    },
+    {
+      "id": "AL-002",
+      "actorId": "ACT-001",
+      "handle": "SF_Market",
+      "platform": "Nullpoint Community",
+      "firstSeen": "2024-07-12"
+    },
+    {
+      "id": "AL-003",
+      "actorId": "ACT-001",
+      "handle": "foxshadow_ops",
+      "platform": "SilentStack Forum",
+      "firstSeen": "2026-04-16"
+    },
+    {
+      "id": "AL-004",
+      "actorId": "ACT-011",
+      "handle": "VectorCell",
+      "platform": "Exfil Lounge",
+      "firstSeen": "2025-08-06"
+    },
+    {
+      "id": "AL-005",
+      "actorId": "ACT-004",
+      "handle": "Drift_prime",
+      "platform": "DarkSignal Forum",
+      "firstSeen": "2025-04-10"
+    },
+    {
+      "id": "AL-006",
+      "actorId": "ACT-007",
+      "handle": "VectorCinder",
+      "platform": "GreyLedger",
+      "firstSeen": "2025-06-28"
+    },
+    {
+      "id": "AL-007",
+      "actorId": "ACT-018",
+      "handle": "DriftByte",
+      "platform": "RedlineMart",
+      "firstSeen": "2025-05-17"
+    },
+    {
+      "id": "AL-008",
+      "actorId": "ACT-009",
+      "handle": "byte87",
+      "platform": "ShadowFerry Market",
+      "firstSeen": "2024-06-25"
+    },
+    {
+      "id": "AL-009",
+      "actorId": "ACT-011",
+      "handle": "OnyxSignal",
+      "platform": "Quietus Market",
+      "firstSeen": "2025-01-25"
+    },
+    {
+      "id": "AL-010",
+      "actorId": "ACT-001",
+      "handle": "StaticCinder",
+      "platform": "Wraithchan",
+      "firstSeen": "2025-07-22"
+    },
+    {
+      "id": "AL-011",
+      "actorId": "ACT-002",
+      "handle": "BlackglassRunner",
+      "platform": "CipherRow",
+      "firstSeen": "2025-01-29"
+    },
+    {
+      "id": "AL-012",
+      "actorId": "ACT-003",
+      "handle": "Blackglass_ops",
+      "platform": "Exfil Lounge",
+      "firstSeen": "2025-06-20"
+    },
+    {
+      "id": "AL-013",
+      "actorId": "ACT-017",
+      "handle": "fox53",
+      "platform": "VaultXchange",
+      "firstSeen": "2024-09-06"
+    },
+    {
+      "id": "AL-014",
+      "actorId": "ACT-018",
+      "handle": "DriftRunner",
+      "platform": "Coalburn Forum",
+      "firstSeen": "2024-11-27"
+    },
+    {
+      "id": "AL-015",
+      "actorId": "ACT-011",
+      "handle": "FerrousWraith",
+      "platform": "Zero Ledger Board",
+      "firstSeen": "2025-07-31"
+    },
+    {
+      "id": "AL-016",
+      "actorId": "ACT-003",
+      "handle": "hex83",
+      "platform": "DarkAtlas",
+      "firstSeen": "2025-12-06"
+    },
+    {
+      "id": "AL-017",
+      "actorId": "ACT-010",
+      "handle": "reaper89",
+      "platform": "Backdoor Bulletin",
+      "firstSeen": "2025-12-09"
+    },
+    {
+      "id": "AL-018",
+      "actorId": "ACT-019",
+      "handle": "Silent_x",
+      "platform": "Exfil Lounge",
+      "firstSeen": "2026-05-14"
+    },
+    {
+      "id": "AL-019",
+      "actorId": "ACT-012",
+      "handle": "route26",
+      "platform": "CipherRow",
+      "firstSeen": "2025-09-24"
+    },
+    {
+      "id": "AL-020",
+      "actorId": "ACT-006",
+      "handle": "Redline_market",
+      "platform": "OnionCourt",
+      "firstSeen": "2025-05-08"
+    },
+    {
+      "id": "AL-021",
+      "actorId": "ACT-016",
+      "handle": "Ashen_market",
+      "platform": "Zero Ledger Board",
+      "firstSeen": "2024-09-26"
+    },
+    {
+      "id": "AL-022",
+      "actorId": "ACT-003",
+      "handle": "route18",
+      "platform": "Redcell Board",
+      "firstSeen": "2024-06-05"
+    },
+    {
+      "id": "AL-023",
+      "actorId": "ACT-006",
+      "handle": "Silent_market",
+      "platform": "GreyLedger",
+      "firstSeen": "2024-07-20"
+    },
+    {
+      "id": "AL-024",
+      "actorId": "ACT-002",
+      "handle": "reaper22",
+      "platform": "CipherRow",
+      "firstSeen": "2025-08-04"
+    },
+    {
+      "id": "AL-025",
+      "actorId": "ACT-006",
+      "handle": "reaper84",
+      "platform": "CipherRow",
+      "firstSeen": "2024-10-01"
+    },
+    {
+      "id": "AL-026",
+      "actorId": "ACT-010",
+      "handle": "point65",
+      "platform": "LatentRoot",
+      "firstSeen": "2026-06-19"
+    },
+    {
+      "id": "AL-027",
+      "actorId": "ACT-011",
+      "handle": "cinder19",
+      "platform": "Nullpoint Community",
+      "firstSeen": "2026-01-18"
+    },
+    {
+      "id": "AL-028",
+      "actorId": "ACT-004",
+      "handle": "Static_net",
+      "platform": "OnionCourt",
+      "firstSeen": "2026-05-10"
+    },
+    {
+      "id": "AL-029",
+      "actorId": "ACT-019",
+      "handle": "WraithRoot",
+      "platform": "Redcell Board",
+      "firstSeen": "2026-03-29"
+    },
+    {
+      "id": "AL-030",
+      "actorId": "ACT-013",
+      "handle": "Cipher_market",
+      "platform": "Redcell Board",
+      "firstSeen": "2024-09-26"
+    },
+    {
+      "id": "AL-031",
+      "actorId": "ACT-015",
+      "handle": "Blackglass_prime",
+      "platform": "Exfil Lounge",
+      "firstSeen": "2025-11-21"
+    },
+    {
+      "id": "AL-032",
+      "actorId": "ACT-018",
+      "handle": "RedlineFrost",
+      "platform": "Nullpoint Community",
+      "firstSeen": "2025-10-17"
+    },
+    {
+      "id": "AL-033",
+      "actorId": "ACT-017",
+      "handle": "runner40",
+      "platform": "SilentStack Forum",
+      "firstSeen": "2024-08-17"
+    },
+    {
+      "id": "AL-034",
+      "actorId": "ACT-014",
+      "handle": "Wraith_dev",
+      "platform": "IronVeil Bazaar",
+      "firstSeen": "2026-01-01"
+    },
+    {
+      "id": "AL-035",
+      "actorId": "ACT-013",
+      "handle": "vault87",
+      "platform": "UnderRoot",
+      "firstSeen": "2024-07-10"
+    },
+    {
+      "id": "AL-036",
+      "actorId": "ACT-017",
+      "handle": "Redline_dev",
+      "platform": "Redcell Board",
+      "firstSeen": "2025-10-22"
+    }
+  ],
+  "pgpKeys": [
+    {
+      "id": "PGP-001",
+      "actorId": "ACT-001",
+      "fingerprint": "ABC1 23F0 89AA D62E",
+      "firstSeen": "2024-11-30",
+      "reuseCount": 2
+    },
+    {
+      "id": "PGP-002",
+      "actorId": "ACT-001",
+      "fingerprint": "2C77 E4A1 F3B9 D0AA",
+      "firstSeen": "2024-11-20",
+      "reuseCount": 2
+    },
+    {
+      "id": "PGP-003",
+      "actorId": "ACT-008",
+      "fingerprint": "0xCAA0404B0893B06B\u20266356",
+      "firstSeen": "2025-01-13",
+      "reuseCount": 2
+    },
+    {
+      "id": "PGP-004",
+      "actorId": "ACT-010",
+      "fingerprint": "0x5A1C87D78349674E\u20261D90",
+      "firstSeen": "2026-04-07",
+      "reuseCount": 3
+    },
+    {
+      "id": "PGP-005",
+      "actorId": "ACT-007",
+      "fingerprint": "0x689C1223A98FCAA6\u2026F802",
+      "firstSeen": "2026-01-25",
+      "reuseCount": 3
+    },
+    {
+      "id": "PGP-006",
+      "actorId": "ACT-010",
+      "fingerprint": "0x762E2AF6FB67ED80\u202667BD",
+      "firstSeen": "2025-09-09",
+      "reuseCount": 3
+    },
+    {
+      "id": "PGP-007",
+      "actorId": "ACT-008",
+      "fingerprint": "0x5685CD61F296B02B\u2026601F",
+      "firstSeen": "2026-04-20",
+      "reuseCount": 3
+    },
+    {
+      "id": "PGP-008",
+      "actorId": "ACT-005",
+      "fingerprint": "0x67C21234E68833F0\u2026D91E",
+      "firstSeen": "2024-09-12",
+      "reuseCount": 3
+    },
+    {
+      "id": "PGP-009",
+      "actorId": "ACT-007",
+      "fingerprint": "0xDE34FA3BB297FFD6\u2026B696",
+      "firstSeen": "2025-04-15",
+      "reuseCount": 4
+    },
+    {
+      "id": "PGP-010",
+      "actorId": "ACT-001",
+      "fingerprint": "0x63870C64E2F726D5\u2026C9CA",
+      "firstSeen": "2024-08-07",
+      "reuseCount": 2
+    },
+    {
+      "id": "PGP-011",
+      "actorId": "ACT-012",
+      "fingerprint": "0x00CE3A13F5E589E4\u20262582",
+      "firstSeen": "2026-01-03",
+      "reuseCount": 2
+    },
+    {
+      "id": "PGP-012",
+      "actorId": "ACT-001",
+      "fingerprint": "0x3DAEC6267C00BB91\u2026717C",
+      "firstSeen": "2024-11-07",
+      "reuseCount": 3
+    },
+    {
+      "id": "PGP-013",
+      "actorId": "ACT-004",
+      "fingerprint": "0x09A17B753E9B36B2\u2026401B",
+      "firstSeen": "2024-11-04",
+      "reuseCount": 4
+    },
+    {
+      "id": "PGP-014",
+      "actorId": "ACT-004",
+      "fingerprint": "0xF9835EFAA40330BC\u202607E2",
+      "firstSeen": "2026-05-12",
+      "reuseCount": 1
+    },
+    {
+      "id": "PGP-015",
+      "actorId": "ACT-016",
+      "fingerprint": "0x74283F3055B6E522\u2026DF60",
+      "firstSeen": "2026-01-27",
+      "reuseCount": 2
+    },
+    {
+      "id": "PGP-016",
+      "actorId": "ACT-015",
+      "fingerprint": "0x0443C98D098585B6\u2026D245",
+      "firstSeen": "2024-08-16",
+      "reuseCount": 1
+    },
+    {
+      "id": "PGP-017",
+      "actorId": "ACT-010",
+      "fingerprint": "0x4282F7BE456F27E4\u202626B1",
+      "firstSeen": "2026-02-20",
+      "reuseCount": 4
+    },
+    {
+      "id": "PGP-018",
+      "actorId": "ACT-018",
+      "fingerprint": "0xD8B6D4D09C2033CB\u2026A866",
+      "firstSeen": "2025-06-25",
+      "reuseCount": 2
+    }
+  ],
+  "wallets": [
+    {
+      "id": "WAL-001",
+      "actorId": "ACT-001",
+      "chain": "Bitcoin",
+      "address": "bc1qgfd83tgwdhwnkmc660raptvwa6ndje",
+      "txCount": 252,
+      "totalVolume": 34.46,
+      "firstSeen": "2024-10-21",
+      "lastSeen": "2026-03-11",
+      "riskIndicators": []
+    },
+    {
+      "id": "WAL-002",
+      "actorId": "ACT-001",
+      "chain": "Ethereum",
+      "address": "0x22788f8e015206b0f31d19272eeb05575a9e3d40",
+      "txCount": 496,
+      "totalVolume": 9.928,
+      "firstSeen": "2025-01-16",
+      "lastSeen": "2026-01-09",
+      "riskIndicators": [
+        "Mixer Interaction"
+      ]
+    },
+    {
+      "id": "WAL-003",
+      "actorId": "ACT-001",
+      "chain": "Bitcoin",
+      "address": "bc1qg9tfplw2z6wmwx829yg2cne0e2ewuv",
+      "txCount": 616,
+      "totalVolume": 31.711,
+      "firstSeen": "2024-06-06",
+      "lastSeen": "2026-02-08",
+      "riskIndicators": [
+        "Mixer Interaction"
+      ]
+    },
+    {
+      "id": "WAL-004",
+      "actorId": "ACT-001",
+      "chain": "Bitcoin",
+      "address": "bc1qmu50r7ssxld7czpre0w9adwtu0n473",
+      "txCount": 259,
+      "totalVolume": 10.213,
+      "firstSeen": "2025-11-19",
+      "lastSeen": "2026-03-12",
+      "riskIndicators": [
+        "Marketplace Payout"
+      ]
+    },
+    {
+      "id": "WAL-005",
+      "actorId": "ACT-005",
+      "chain": "Bitcoin",
+      "address": "bc1qf335mdzxmmnrzeuhrsy5wwtwx3dhk4",
+      "txCount": 227,
+      "totalVolume": 10.786,
+      "firstSeen": "2025-03-29",
+      "lastSeen": "2026-01-22",
+      "riskIndicators": [
+        "Rapid Transfer Chain"
+      ]
+    },
+    {
+      "id": "WAL-006",
+      "actorId": "ACT-013",
+      "chain": "Ethereum",
+      "address": "0xdd66ffb66da67f6cb7465ab6aa3ec2ecc28f2772",
+      "txCount": 186,
+      "totalVolume": 26.429,
+      "firstSeen": "2025-12-08",
+      "lastSeen": "2026-07-04",
+      "riskIndicators": [
+        "Marketplace Payout"
+      ]
+    },
+    {
+      "id": "WAL-007",
+      "actorId": "ACT-018",
+      "chain": "Bitcoin",
+      "address": "bc1qxvhjlsw8rp9240e3ll32vnfrxva6le",
+      "txCount": 456,
+      "totalVolume": 32.945,
+      "firstSeen": "2025-07-13",
+      "lastSeen": "2026-04-27",
+      "riskIndicators": [
+        "Mixer Interaction"
+      ]
+    },
+    {
+      "id": "WAL-008",
+      "actorId": "ACT-020",
+      "chain": "Ethereum",
+      "address": "0x86d14b66b4df5b5da4501a979888b320ccdba7a9",
+      "txCount": 114,
+      "totalVolume": 23.534,
+      "firstSeen": "2024-08-23",
+      "lastSeen": "2026-05-08",
+      "riskIndicators": [
+        "Mixer Interaction"
+      ]
+    },
+    {
+      "id": "WAL-009",
+      "actorId": "ACT-009",
+      "chain": "Ethereum",
+      "address": "0x5a3e6881109eb41fb18777f17ceb2ff02ccd3814",
+      "txCount": 58,
+      "totalVolume": 37.313,
+      "firstSeen": "2024-09-23",
+      "lastSeen": "2026-02-15",
+      "riskIndicators": [
+        "Rapid Transfer Chain"
+      ]
+    },
+    {
+      "id": "WAL-010",
+      "actorId": "ACT-002",
+      "chain": "Ethereum",
+      "address": "0xb8831ea19b9decb70b4dfc59b6615f358bbde8f7",
+      "txCount": 204,
+      "totalVolume": 21.034,
+      "firstSeen": "2025-04-26",
+      "lastSeen": "2026-05-31",
+      "riskIndicators": [
+        "Mixer Interaction",
+        "Marketplace Payout"
+      ]
+    },
+    {
+      "id": "WAL-011",
+      "actorId": "ACT-020",
+      "chain": "Bitcoin",
+      "address": "bc1q22vnkk64mp4d8lmug48cj9w8c4ndvn",
+      "txCount": 184,
+      "totalVolume": 10.305,
+      "firstSeen": "2025-08-03",
+      "lastSeen": "2026-06-27",
+      "riskIndicators": [
+        "Mixer Interaction",
+        "Marketplace Payout"
+      ]
+    },
+    {
+      "id": "WAL-012",
+      "actorId": "ACT-006",
+      "chain": "Ethereum",
+      "address": "0x026b55cbb6ac6097162bc45e1750f20f6d2b3999",
+      "txCount": 529,
+      "totalVolume": 33.391,
+      "firstSeen": "2024-12-02",
+      "lastSeen": "2026-05-08",
+      "riskIndicators": [
+        "Mixer Interaction"
+      ]
+    },
+    {
+      "id": "WAL-013",
+      "actorId": "ACT-004",
+      "chain": "Ethereum",
+      "address": "0xc49a23fd73afa22af3c18da14a22f330ad8be2d5",
+      "txCount": 436,
+      "totalVolume": 0.259,
+      "firstSeen": "2025-07-19",
+      "lastSeen": "2026-01-02",
+      "riskIndicators": [
+        "Mixer Interaction"
+      ]
+    },
+    {
+      "id": "WAL-014",
+      "actorId": "ACT-016",
+      "chain": "Ethereum",
+      "address": "0x837edfd3e3e9ede1209504e06075c43493c80b8b",
+      "txCount": 353,
+      "totalVolume": 16.627,
+      "firstSeen": "2025-06-15",
+      "lastSeen": "2026-06-06",
+      "riskIndicators": [
+        "Mixer Interaction"
+      ]
+    },
+    {
+      "id": "WAL-015",
+      "actorId": "ACT-007",
+      "chain": "Bitcoin",
+      "address": "bc1qtyltu0ja7tfqc0rdygrlvd6cjsg8tk",
+      "txCount": 343,
+      "totalVolume": 21.219,
+      "firstSeen": "2024-09-13",
+      "lastSeen": "2026-08-18",
+      "riskIndicators": [
+        "Mixer Interaction"
+      ]
+    },
+    {
+      "id": "WAL-016",
+      "actorId": "ACT-020",
+      "chain": "Ethereum",
+      "address": "0x75ee13d41a8b7b6edd4c97da34a0eea7fe5f4975",
+      "txCount": 264,
+      "totalVolume": 11.004,
+      "firstSeen": "2025-07-12",
+      "lastSeen": "2026-04-10",
+      "riskIndicators": [
+        "Mixer Interaction",
+        "Marketplace Payout"
+      ]
+    },
+    {
+      "id": "WAL-017",
+      "actorId": "ACT-013",
+      "chain": "Ethereum",
+      "address": "0x6d53b3198ba2fe00a80098b4d93174e8578d2c7a",
+      "txCount": 379,
+      "totalVolume": 33.262,
+      "firstSeen": "2025-10-14",
+      "lastSeen": "2026-08-25",
+      "riskIndicators": []
+    },
+    {
+      "id": "WAL-018",
+      "actorId": "ACT-013",
+      "chain": "Bitcoin",
+      "address": "bc1qxd7xnnluzqcytp5nn5q0wxjk5pspjv",
+      "txCount": 20,
+      "totalVolume": 35.715,
+      "firstSeen": "2025-07-31",
+      "lastSeen": "2026-04-25",
+      "riskIndicators": [
+        "Mixer Interaction"
+      ]
+    },
+    {
+      "id": "WAL-019",
+      "actorId": "ACT-016",
+      "chain": "Bitcoin",
+      "address": "bc1qtj9cakf2emxu9yls2khfvxupupymnh",
+      "txCount": 588,
+      "totalVolume": 28.911,
+      "firstSeen": "2025-03-18",
+      "lastSeen": "2026-06-13",
+      "riskIndicators": [
+        "Marketplace Payout"
+      ]
+    },
+    {
+      "id": "WAL-020",
+      "actorId": "ACT-017",
+      "chain": "Ethereum",
+      "address": "0x8b918f15ba90e8bac4bc67c6e42b642405f76a20",
+      "txCount": 520,
+      "totalVolume": 38.506,
+      "firstSeen": "2024-12-21",
+      "lastSeen": "2026-01-09",
+      "riskIndicators": [
+        "Mixer Interaction",
+        "Marketplace Payout"
+      ]
+    },
+    {
+      "id": "WAL-021",
+      "actorId": "ACT-004",
+      "chain": "Bitcoin",
+      "address": "bc1qkh8urlap68mfd2k5fpgnswjz8550yl",
+      "txCount": 151,
+      "totalVolume": 38.006,
+      "firstSeen": "2024-10-22",
+      "lastSeen": "2026-07-03",
+      "riskIndicators": [
+        "Rapid Transfer Chain"
+      ]
+    },
+    {
+      "id": "WAL-022",
+      "actorId": "ACT-013",
+      "chain": "Bitcoin",
+      "address": "bc1qf60fp3m2vlah84j73jp5lvqdll85h3",
+      "txCount": 418,
+      "totalVolume": 24.265,
+      "firstSeen": "2024-12-30",
+      "lastSeen": "2026-04-21",
+      "riskIndicators": [
+        "Mixer Interaction"
+      ]
+    },
+    {
+      "id": "WAL-023",
+      "actorId": "ACT-018",
+      "chain": "Ethereum",
+      "address": "0xe80423f1e9acd13a1334074b95197aae6e4d6a71",
+      "txCount": 61,
+      "totalVolume": 10.553,
+      "firstSeen": "2025-10-19",
+      "lastSeen": "2026-08-04",
+      "riskIndicators": [
+        "Mixer Interaction",
+        "Marketplace Payout"
+      ]
+    },
+    {
+      "id": "WAL-024",
+      "actorId": "ACT-012",
+      "chain": "Ethereum",
+      "address": "0x9f65fc1f6a708c8f0d09645696c437c52acaf2a0",
+      "txCount": 34,
+      "totalVolume": 3.627,
+      "firstSeen": "2024-08-10",
+      "lastSeen": "2026-08-01",
+      "riskIndicators": [
+        "Marketplace Payout"
+      ]
+    }
+  ],
+  "onionServices": [
+    {
+      "id": "ONI-001",
+      "actorId": "ACT-001",
+      "address": "qffbgn2elamnc7r6.onion",
+      "status": "ONLINE",
+      "banner": "Apache/2.4.41",
+      "descriptorConsistency": "MINOR DEVIATION"
+    },
+    {
+      "id": "ONI-002",
+      "actorId": "ACT-001",
+      "address": "5gc2hdjhh7e5evh3.onion",
+      "status": "ONLINE",
+      "banner": "lighttpd/1.4.55",
+      "descriptorConsistency": "INCONSISTENT"
+    },
+    {
+      "id": "ONI-003",
+      "actorId": "ACT-020",
+      "address": "5hg5tycjbc63aybj.onion",
+      "status": "OFFLINE",
+      "banner": "lighttpd/1.4.55",
+      "descriptorConsistency": "INCONSISTENT"
+    },
+    {
+      "id": "ONI-004",
+      "actorId": "ACT-019",
+      "address": "axf3z3g2pg5diepa.onion",
+      "status": "ONLINE",
+      "banner": "nginx/1.18.0 (Ubuntu)",
+      "descriptorConsistency": "CONSISTENT"
+    },
+    {
+      "id": "ONI-005",
+      "actorId": "ACT-010",
+      "address": "xx4kdviyk6spro3z.onion",
+      "status": "ONLINE",
+      "banner": "Apache/2.4.41",
+      "descriptorConsistency": "INCONSISTENT"
+    },
+    {
+      "id": "ONI-006",
+      "actorId": "ACT-020",
+      "address": "yd44mc5u5rrrbjx4.onion",
+      "status": "ONLINE",
+      "banner": "nginx/1.18.0 (Ubuntu)",
+      "descriptorConsistency": "CONSISTENT"
+    },
+    {
+      "id": "ONI-007",
+      "actorId": "ACT-019",
+      "address": "2zif364mzjugju6r.onion",
+      "status": "OFFLINE",
+      "banner": "Apache/2.4.41",
+      "descriptorConsistency": "CONSISTENT"
+    },
+    {
+      "id": "ONI-008",
+      "actorId": "ACT-016",
+      "address": "gruiibufdcdmxhkv.onion",
+      "status": "ONLINE",
+      "banner": "Apache/2.4.41",
+      "descriptorConsistency": "INCONSISTENT"
+    },
+    {
+      "id": "ONI-009",
+      "actorId": "ACT-009",
+      "address": "hi5wrwsunx4zeqww.onion",
+      "status": "OFFLINE",
+      "banner": "lighttpd/1.4.55",
+      "descriptorConsistency": "MINOR DEVIATION"
+    },
+    {
+      "id": "ONI-010",
+      "actorId": "ACT-019",
+      "address": "btywdcre6jho5vvv.onion",
+      "status": "ONLINE",
+      "banner": "Apache/2.4.41",
+      "descriptorConsistency": "INCONSISTENT"
+    },
+    {
+      "id": "ONI-011",
+      "actorId": "ACT-008",
+      "address": "5m5ywcgbtsblxfsh.onion",
+      "status": "OFFLINE",
+      "banner": "Caddy/2.6.4",
+      "descriptorConsistency": "INCONSISTENT"
+    },
+    {
+      "id": "ONI-012",
+      "actorId": "ACT-012",
+      "address": "2hunnmyy3pps7mja.onion",
+      "status": "OFFLINE",
+      "banner": "Caddy/2.6.4",
+      "descriptorConsistency": "MINOR DEVIATION"
+    },
+    {
+      "id": "ONI-013",
+      "actorId": "ACT-004",
+      "address": "7leeyrlqvgrcdgkx.onion",
+      "status": "ONLINE",
+      "banner": "Caddy/2.6.4",
+      "descriptorConsistency": "CONSISTENT"
+    },
+    {
+      "id": "ONI-014",
+      "actorId": "ACT-005",
+      "address": "rlpyoschvsxshb4x.onion",
+      "status": "OFFLINE",
+      "banner": "nginx/1.18.0 (Ubuntu)",
+      "descriptorConsistency": "INCONSISTENT"
+    }
+  ],
+  "infrastructure": [
+    {
+      "id": "INF-001",
+      "onionId": "ONI-001",
+      "actorId": "ACT-001",
+      "candidateDomain": "duskgate-hosting.biz",
+      "candidateIP": "23.3.76.225",
+      "hostingProvider": "Coldpath Data Centers",
+      "certRelationship": "MATCH",
+      "serverFingerprint": "SIMILAR",
+      "fingerprint": "5228:5e21:216d:a7c1:1e3e:46b6:fabf:d5da:1863:209a",
+      "confidence": 78
+    },
+    {
+      "id": "INF-002",
+      "onionId": "ONI-002",
+      "actorId": "ACT-001",
+      "candidateDomain": "amberport-group.io",
+      "candidateIP": "123.56.2.130",
+      "hostingProvider": "Cloak Networks Ltd",
+      "certRelationship": "PARTIAL MATCH",
+      "serverFingerprint": "WEAK CORRELATION",
+      "fingerprint": "3a8b:2c4d:81c3:a63c:854e:2a70:3575:5ad7:17a8:bda7",
+      "confidence": 63
+    },
+    {
+      "id": "INF-003",
+      "onionId": "ONI-006",
+      "actorId": "ACT-020",
+      "candidateDomain": "amberport-systems.com",
+      "candidateIP": "20.172.75.72",
+      "hostingProvider": "Cloak Networks Ltd",
+      "certRelationship": "PARTIAL MATCH",
+      "serverFingerprint": "WEAK CORRELATION",
+      "fingerprint": "1378:cf0f:5c42:49e0:894c:7c52:ce64:acbd:284f:79ee",
+      "confidence": 87
+    },
+    {
+      "id": "INF-004",
+      "onionId": "ONI-006",
+      "actorId": "ACT-020",
+      "candidateDomain": "haloway-group.com",
+      "candidateIP": "50.232.114.7",
+      "hostingProvider": "Halo Colocation",
+      "certRelationship": "MATCH",
+      "serverFingerprint": "WEAK CORRELATION",
+      "fingerprint": "5a1c:68a8:d076:2687:7279:735f:4daf:1443:7229:8272",
+      "confidence": 67
+    },
+    {
+      "id": "INF-005",
+      "onionId": "ONI-005",
+      "actorId": "ACT-010",
+      "candidateDomain": "brightloop-systems.co",
+      "candidateIP": "157.223.116.79",
+      "hostingProvider": "Halo Colocation",
+      "certRelationship": "MATCH",
+      "serverFingerprint": "SIMILAR",
+      "fingerprint": "1c71:dc46:95a7:b739:56b7:bfbc:0723:72d9:d3a2:69e2",
+      "confidence": 85
+    },
+    {
+      "id": "INF-006",
+      "onionId": "ONI-012",
+      "actorId": "ACT-012",
+      "candidateDomain": "novanet-group.net",
+      "candidateIP": "151.73.82.115",
+      "hostingProvider": "Coldpath Data Centers",
+      "certRelationship": "NO MATCH",
+      "serverFingerprint": "WEAK CORRELATION",
+      "fingerprint": "9c6c:98c6:4277:aba8:bc7c:af2c:72c8:32ec:856a:9262",
+      "confidence": 62
+    },
+    {
+      "id": "INF-007",
+      "onionId": "ONI-010",
+      "actorId": "ACT-019",
+      "candidateDomain": "quietfield-group.co",
+      "candidateIP": "20.195.4.123",
+      "hostingProvider": "Vertex Systems",
+      "certRelationship": "PARTIAL MATCH",
+      "serverFingerprint": "SIMILAR",
+      "fingerprint": "967e:420a:f70a:4d32:a4b6:2399:0f30:d3f2:f571:f9aa",
+      "confidence": 58
+    },
+    {
+      "id": "INF-008",
+      "onionId": "ONI-013",
+      "actorId": "ACT-004",
+      "candidateDomain": "ironforge-labs.co",
+      "candidateIP": "174.193.45.227",
+      "hostingProvider": "Farrow Cloud",
+      "certRelationship": "NO MATCH",
+      "serverFingerprint": "SIMILAR",
+      "fingerprint": "f66d:0d21:365b:0a2e:252a:822b:f4a5:d728:475e:791c",
+      "confidence": 54
+    },
+    {
+      "id": "INF-009",
+      "onionId": "ONI-009",
+      "actorId": "ACT-009",
+      "candidateDomain": "vertex-networks.net",
+      "candidateIP": "86.241.214.143",
+      "hostingProvider": "Farrow Cloud",
+      "certRelationship": "NO MATCH",
+      "serverFingerprint": "IDENTICAL PATTERN",
+      "fingerprint": "2f6a:9dc7:4c95:a897:bcf1:8ef0:080f:c7a9:b22c:608a",
+      "confidence": 64
+    },
+    {
+      "id": "INF-010",
+      "onionId": "ONI-013",
+      "actorId": "ACT-004",
+      "candidateDomain": "meridian-solutions.co",
+      "candidateIP": "212.242.133.190",
+      "hostingProvider": "Vertex Systems",
+      "certRelationship": "PARTIAL MATCH",
+      "serverFingerprint": "WEAK CORRELATION",
+      "fingerprint": "1f41:91da:5e5b:6898:a22f:bcca:6b3b:6e41:1837:0ed1",
+      "confidence": 70
+    },
+    {
+      "id": "INF-011",
+      "onionId": "ONI-013",
+      "actorId": "ACT-004",
+      "candidateDomain": "meridian-systems.net",
+      "candidateIP": "161.177.238.125",
+      "hostingProvider": "Meridian Hosting",
+      "certRelationship": "NO MATCH",
+      "serverFingerprint": "IDENTICAL PATTERN",
+      "fingerprint": "8d6e:9e3b:dd8c:f322:a4a1:2fbb:c8e9:a0fc:51cf:df4e",
+      "confidence": 72
+    },
+    {
+      "id": "INF-012",
+      "onionId": "ONI-004",
+      "actorId": "ACT-019",
+      "candidateDomain": "duskgate-group.com",
+      "candidateIP": "75.240.169.92",
+      "hostingProvider": "Cloak Networks Ltd",
+      "certRelationship": "PARTIAL MATCH",
+      "serverFingerprint": "WEAK CORRELATION",
+      "fingerprint": "c7fd:c4ac:b61d:c346:7671:0c34:8ce5:f70b:cac9:f9bc",
+      "confidence": 85
+    },
+    {
+      "id": "INF-013",
+      "onionId": "ONI-007",
+      "actorId": "ACT-019",
+      "candidateDomain": "meridian-hosting.co",
+      "candidateIP": "147.50.55.84",
+      "hostingProvider": "Meridian Hosting",
+      "certRelationship": "MATCH",
+      "serverFingerprint": "WEAK CORRELATION",
+      "fingerprint": "c672:9afc:2cc4:5b80:73c3:8cf3:36a6:7919:7d75:c492",
+      "confidence": 87
+    },
+    {
+      "id": "INF-014",
+      "onionId": "ONI-006",
+      "actorId": "ACT-020",
+      "candidateDomain": "vertex-group.io",
+      "candidateIP": "84.140.21.61",
+      "hostingProvider": "Vertex Systems",
+      "certRelationship": "NO MATCH",
+      "serverFingerprint": "WEAK CORRELATION",
+      "fingerprint": "575f:5ceb:739e:ec1c:a5c3:bf35:f7e3:10f9:ba02:1994",
+      "confidence": 67
+    },
+    {
+      "id": "INF-015",
+      "onionId": "ONI-003",
+      "actorId": "ACT-020",
+      "candidateDomain": "farrowline-solutions.com",
+      "candidateIP": "36.126.234.187",
+      "hostingProvider": "Meridian Hosting",
+      "certRelationship": "MATCH",
+      "serverFingerprint": "WEAK CORRELATION",
+      "fingerprint": "2a4d:b682:9d94:9aa6:3768:ab50:e077:6052:9f39:3989",
+      "confidence": 77
+    },
+    {
+      "id": "INF-016",
+      "onionId": "ONI-008",
+      "actorId": "ACT-016",
+      "candidateDomain": "solstice-systems.co",
+      "candidateIP": "130.187.223.68",
+      "hostingProvider": "Coldpath Data Centers",
+      "certRelationship": "PARTIAL MATCH",
+      "serverFingerprint": "SIMILAR",
+      "fingerprint": "160f:2758:596b:b70f:aa4c:1674:500e:7e0d:e0d6:cd15",
+      "confidence": 70
+    },
+    {
+      "id": "INF-017",
+      "onionId": "ONI-002",
+      "actorId": "ACT-015",
+      "candidateDomain": "amberport-group.com",
+      "candidateIP": "110.206.129.5",
+      "hostingProvider": "Coldpath Data Centers",
+      "certRelationship": "PARTIAL MATCH",
+      "serverFingerprint": "SIMILAR",
+      "fingerprint": "6305:f64d:6ce3:df5a:0330:99d4:8024:801b:3297:1434",
+      "confidence": 71
+    },
+    {
+      "id": "INF-018",
+      "onionId": "ONI-002",
+      "actorId": "ACT-015",
+      "candidateDomain": "greylatch-networks.co",
+      "candidateIP": "22.99.151.112",
+      "hostingProvider": "Coldpath Data Centers",
+      "certRelationship": "MATCH",
+      "serverFingerprint": "WEAK CORRELATION",
+      "fingerprint": "86f1:2dce:abf2:df8a:a8f9:fc39:7b2a:b924:6885:b5d0",
+      "confidence": 51
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-001",
+      "type": "USES",
+      "source": "ACT-003",
+      "target": "WAL-022",
+      "firstSeen": "2024-12-05",
+      "lastSeen": "2026-05-18",
+      "confidence": 57
+    },
+    {
+      "id": "REL-002",
+      "type": "USES",
+      "source": "ACT-020",
+      "target": "PGP-013",
+      "firstSeen": "2026-02-15",
+      "lastSeen": "2026-03-03",
+      "confidence": 52
+    },
+    {
+      "id": "REL-003",
+      "type": "REUSED",
+      "source": "ACT-015",
+      "target": "ACT-007",
+      "firstSeen": "2024-10-29",
+      "lastSeen": "2026-07-12",
+      "confidence": 59
+    },
+    {
+      "id": "REL-004",
+      "type": "REUSED",
+      "source": "ACT-020",
+      "target": "WAL-003",
+      "firstSeen": "2025-12-21",
+      "lastSeen": "2026-06-15",
+      "confidence": 76
+    },
+    {
+      "id": "REL-005",
+      "type": "CONTROLS",
+      "source": "ACT-012",
+      "target": "ACT-018",
+      "firstSeen": "2026-04-14",
+      "lastSeen": "2026-05-30",
+      "confidence": 87
+    },
+    {
+      "id": "REL-006",
+      "type": "REUSED",
+      "source": "ACT-019",
+      "target": "ACT-019",
+      "firstSeen": "2025-10-18",
+      "lastSeen": "2026-04-26",
+      "confidence": 67
+    },
+    {
+      "id": "REL-007",
+      "type": "FUNDED",
+      "source": "ACT-018",
+      "target": "AL-015",
+      "firstSeen": "2024-08-10",
+      "lastSeen": "2026-07-13",
+      "confidence": 94
+    },
+    {
+      "id": "REL-008",
+      "type": "USES",
+      "source": "ACT-004",
+      "target": "ACT-012",
+      "firstSeen": "2026-04-07",
+      "lastSeen": "2026-02-25",
+      "confidence": 70
+    },
+    {
+      "id": "REL-009",
+      "type": "RELATED_TO",
+      "source": "ACT-015",
+      "target": "WAL-024",
+      "firstSeen": "2025-11-30",
+      "lastSeen": "2026-07-24",
+      "confidence": 85
+    },
+    {
+      "id": "REL-010",
+      "type": "REUSED",
+      "source": "ACT-017",
+      "target": "AL-003",
+      "firstSeen": "2025-03-15",
+      "lastSeen": "2026-07-17",
+      "confidence": 58
+    },
+    {
+      "id": "REL-011",
+      "type": "POSTED_ON",
+      "source": "ACT-013",
+      "target": "WAL-007",
+      "firstSeen": "2025-08-23",
+      "lastSeen": "2026-01-03",
+      "confidence": 96
+    },
+    {
+      "id": "REL-012",
+      "type": "POSTED_ON",
+      "source": "ACT-018",
+      "target": "PGP-008",
+      "firstSeen": "2025-03-20",
+      "lastSeen": "2026-06-04",
+      "confidence": 74
+    },
+    {
+      "id": "REL-013",
+      "type": "TRUSTS",
+      "source": "ACT-018",
+      "target": "WAL-005",
+      "firstSeen": "2024-11-16",
+      "lastSeen": "2026-08-02",
+      "confidence": 87
+    },
+    {
+      "id": "REL-014",
+      "type": "FUNDED",
+      "source": "ACT-019",
+      "target": "PGP-015",
+      "firstSeen": "2025-07-23",
+      "lastSeen": "2026-04-02",
+      "confidence": 74
+    },
+    {
+      "id": "REL-015",
+      "type": "ASSOCIATED_WITH",
+      "source": "ACT-002",
+      "target": "AL-009",
+      "firstSeen": "2025-12-27",
+      "lastSeen": "2026-02-28",
+      "confidence": 60
+    },
+    {
+      "id": "REL-016",
+      "type": "HOSTED_ON",
+      "source": "ACT-002",
+      "target": "WAL-013",
+      "firstSeen": "2025-10-01",
+      "lastSeen": "2026-08-12",
+      "confidence": 94
+    },
+    {
+      "id": "REL-017",
+      "type": "FUNDED",
+      "source": "ACT-013",
+      "target": "AL-028",
+      "firstSeen": "2025-01-06",
+      "lastSeen": "2026-01-25",
+      "confidence": 83
+    },
+    {
+      "id": "REL-018",
+      "type": "REUSED",
+      "source": "ACT-017",
+      "target": "AL-007",
+      "firstSeen": "2024-08-03",
+      "lastSeen": "2026-01-30",
+      "confidence": 54
+    },
+    {
+      "id": "REL-019",
+      "type": "POSTED_ON",
+      "source": "ACT-007",
+      "target": "AL-016",
+      "firstSeen": "2025-09-30",
+      "lastSeen": "2026-02-09",
+      "confidence": 57
+    },
+    {
+      "id": "REL-020",
+      "type": "POSTED_ON",
+      "source": "ACT-012",
+      "target": "ACT-019",
+      "firstSeen": "2025-05-03",
+      "lastSeen": "2026-02-24",
+      "confidence": 71
+    },
+    {
+      "id": "REL-021",
+      "type": "CONTROLS",
+      "source": "ACT-014",
+      "target": "PGP-014",
+      "firstSeen": "2025-11-18",
+      "lastSeen": "2026-05-31",
+      "confidence": 76
+    },
+    {
+      "id": "REL-022",
+      "type": "RELATED_TO",
+      "source": "ACT-016",
+      "target": "ACT-015",
+      "firstSeen": "2024-08-13",
+      "lastSeen": "2026-08-27",
+      "confidence": 91
+    },
+    {
+      "id": "REL-023",
+      "type": "USES",
+      "source": "ACT-002",
+      "target": "AL-023",
+      "firstSeen": "2025-03-10",
+      "lastSeen": "2026-07-18",
+      "confidence": 60
+    },
+    {
+      "id": "REL-024",
+      "type": "POSTED_ON",
+      "source": "ACT-004",
+      "target": "PGP-001",
+      "firstSeen": "2025-05-15",
+      "lastSeen": "2026-05-25",
+      "confidence": 83
+    },
+    {
+      "id": "REL-025",
+      "type": "CONTROLS",
+      "source": "ACT-018",
+      "target": "AL-002",
+      "firstSeen": "2026-03-01",
+      "lastSeen": "2026-05-15",
+      "confidence": 78
+    },
+    {
+      "id": "REL-026",
+      "type": "FUNDED",
+      "source": "ACT-003",
+      "target": "ACT-017",
+      "firstSeen": "2024-11-04",
+      "lastSeen": "2026-05-24",
+      "confidence": 94
+    },
+    {
+      "id": "REL-027",
+      "type": "FUNDED",
+      "source": "ACT-012",
+      "target": "ACT-017",
+      "firstSeen": "2025-04-06",
+      "lastSeen": "2026-05-08",
+      "confidence": 50
+    },
+    {
+      "id": "REL-028",
+      "type": "USES",
+      "source": "ACT-011",
+      "target": "AL-034",
+      "firstSeen": "2024-10-08",
+      "lastSeen": "2026-04-12",
+      "confidence": 88
+    },
+    {
+      "id": "REL-029",
+      "type": "REUSED",
+      "source": "ACT-010",
+      "target": "AL-030",
+      "firstSeen": "2026-03-11",
+      "lastSeen": "2026-02-12",
+      "confidence": 77
+    },
+    {
+      "id": "REL-030",
+      "type": "ASSOCIATED_WITH",
+      "source": "ACT-008",
+      "target": "AL-008",
+      "firstSeen": "2024-12-20",
+      "lastSeen": "2026-02-25",
+      "confidence": 54
+    },
+    {
+      "id": "REL-031",
+      "type": "FUNDED",
+      "source": "ACT-014",
+      "target": "WAL-022",
+      "firstSeen": "2025-01-13",
+      "lastSeen": "2026-03-27",
+      "confidence": 61
+    },
+    {
+      "id": "REL-032",
+      "type": "ASSOCIATED_WITH",
+      "source": "ACT-017",
+      "target": "ACT-002",
+      "firstSeen": "2026-03-29",
+      "lastSeen": "2026-08-03",
+      "confidence": 65
+    },
+    {
+      "id": "REL-033",
+      "type": "TRUSTS",
+      "source": "ACT-002",
+      "target": "WAL-023",
+      "firstSeen": "2026-03-12",
+      "lastSeen": "2026-01-01",
+      "confidence": 54
+    },
+    {
+      "id": "REL-034",
+      "type": "CONTROLS",
+      "source": "ACT-014",
+      "target": "WAL-024",
+      "firstSeen": "2025-01-30",
+      "lastSeen": "2026-01-09",
+      "confidence": 56
+    },
+    {
+      "id": "REL-035",
+      "type": "POSTED_ON",
+      "source": "ACT-001",
+      "target": "AL-035",
+      "firstSeen": "2025-09-26",
+      "lastSeen": "2026-07-22",
+      "confidence": 74
+    },
+    {
+      "id": "REL-036",
+      "type": "FUNDED",
+      "source": "ACT-009",
+      "target": "ACT-009",
+      "firstSeen": "2024-11-20",
+      "lastSeen": "2026-01-03",
+      "confidence": 79
+    },
+    {
+      "id": "REL-037",
+      "type": "RELATED_TO",
+      "source": "ACT-017",
+      "target": "PGP-010",
+      "firstSeen": "2025-02-19",
+      "lastSeen": "2026-07-07",
+      "confidence": 88
+    },
+    {
+      "id": "REL-038",
+      "type": "HOSTED_ON",
+      "source": "ACT-017",
+      "target": "AL-020",
+      "firstSeen": "2025-02-19",
+      "lastSeen": "2026-04-02",
+      "confidence": 65
+    },
+    {
+      "id": "REL-039",
+      "type": "HOSTED_ON",
+      "source": "ACT-004",
+      "target": "ACT-010",
+      "firstSeen": "2025-10-19",
+      "lastSeen": "2026-04-07",
+      "confidence": 50
+    },
+    {
+      "id": "REL-040",
+      "type": "POSTED_ON",
+      "source": "ACT-020",
+      "target": "PGP-017",
+      "firstSeen": "2025-05-23",
+      "lastSeen": "2026-05-04",
+      "confidence": 90
+    },
+    {
+      "id": "REL-041",
+      "type": "ASSOCIATED_WITH",
+      "source": "ACT-006",
+      "target": "PGP-002",
+      "firstSeen": "2026-04-26",
+      "lastSeen": "2026-05-05",
+      "confidence": 67
+    },
+    {
+      "id": "REL-042",
+      "type": "USES",
+      "source": "ACT-015",
+      "target": "ACT-019",
+      "firstSeen": "2025-05-31",
+      "lastSeen": "2026-05-26",
+      "confidence": 66
+    },
+    {
+      "id": "REL-043",
+      "type": "FUNDED",
+      "source": "ACT-008",
+      "target": "AL-024",
+      "firstSeen": "2024-07-19",
+      "lastSeen": "2026-08-01",
+      "confidence": 93
+    },
+    {
+      "id": "REL-044",
+      "type": "ASSOCIATED_WITH",
+      "source": "ACT-017",
+      "target": "AL-032",
+      "firstSeen": "2025-09-03",
+      "lastSeen": "2026-05-13",
+      "confidence": 56
+    }
+  ],
+  "evidence": [
+    {
+      "id": "DT-EV-00001",
+      "actorId": "ACT-001",
+      "type": "Identifier Reuse",
+      "source": "Marketplace Forum",
+      "timestamp": "2026-01-10",
+      "observation": "Same PGP fingerprint used by two aliases (Shadow_Fox, SF_Market)",
+      "reliability": "HIGH",
+      "confidence": 94
+    },
+    {
+      "id": "DT-EV-00002",
+      "actorId": "ACT-001",
+      "type": "Stylometric Match",
+      "source": "Certificate Transparency Log",
+      "timestamp": "2024-07-15",
+      "observation": "Same PGP fingerprint used across two distinct aliases",
+      "reliability": "HIGH",
+      "confidence": 92
+    },
+    {
+      "id": "DT-EV-00003",
+      "actorId": "ACT-001",
+      "type": "Descriptor Match",
+      "source": "Blockchain Ledger Analysis",
+      "timestamp": "2025-07-07",
+      "observation": "Vocabulary and punctuation pattern consistent with prior persona",
+      "reliability": "HIGH",
+      "confidence": 94
+    },
+    {
+      "id": "DT-EV-00004",
+      "actorId": "ACT-001",
+      "type": "Stylometric Match",
+      "source": "Certificate Transparency Log",
+      "timestamp": "2024-11-23",
+      "observation": "Writing style similarity exceeds threshold across forum posts",
+      "reliability": "MEDIUM",
+      "confidence": 60
+    },
+    {
+      "id": "DT-EV-00005",
+      "actorId": "ACT-001",
+      "type": "Identifier Reuse",
+      "source": "Blockchain Ledger Analysis",
+      "timestamp": "2026-01-08",
+      "observation": "Posting time distribution consistent with a known persona",
+      "reliability": "HIGH",
+      "confidence": 93
+    },
+    {
+      "id": "DT-EV-00006",
+      "actorId": "ACT-001",
+      "type": "Descriptor Match",
+      "source": "OSINT Correlation",
+      "timestamp": "2024-08-19",
+      "observation": "Posting time distribution consistent with a known persona",
+      "reliability": "MEDIUM",
+      "confidence": 81
+    },
+    {
+      "id": "DT-EV-00007",
+      "actorId": "ACT-001",
+      "type": "Behavioural Pattern",
+      "source": "Infrastructure Scan (Authorized)",
+      "timestamp": "2024-10-09",
+      "observation": "Posting time distribution consistent with a known persona",
+      "reliability": "HIGH",
+      "confidence": 88
+    },
+    {
+      "id": "DT-EV-00008",
+      "actorId": "ACT-001",
+      "type": "Behavioural Pattern",
+      "source": "Marketplace Forum",
+      "timestamp": "2026-03-12",
+      "observation": "Vocabulary and punctuation pattern consistent with prior persona",
+      "reliability": "HIGH",
+      "confidence": 96
+    },
+    {
+      "id": "DT-EV-00009",
+      "actorId": "ACT-011",
+      "type": "Behavioural Pattern",
+      "source": "OSINT Correlation",
+      "timestamp": "2026-08-25",
+      "observation": "Vocabulary and punctuation pattern consistent with prior persona",
+      "reliability": "LOW",
+      "confidence": 58
+    },
+    {
+      "id": "DT-EV-00010",
+      "actorId": "ACT-018",
+      "type": "Behavioural Pattern",
+      "source": "Dark-Web Crawl",
+      "timestamp": "2024-08-22",
+      "observation": "Server banner and fingerprint match a previously catalogued hidden service",
+      "reliability": "HIGH",
+      "confidence": 97
+    },
+    {
+      "id": "DT-EV-00011",
+      "actorId": "ACT-018",
+      "type": "Certificate Relationship",
+      "source": "Infrastructure Scan (Authorized)",
+      "timestamp": "2025-07-13",
+      "observation": "Server banner and fingerprint match a previously catalogued hidden service",
+      "reliability": "HIGH",
+      "confidence": 89
+    },
+    {
+      "id": "DT-EV-00012",
+      "actorId": "ACT-005",
+      "type": "Certificate Relationship",
+      "source": "Blockchain Ledger Analysis",
+      "timestamp": "2025-07-27",
+      "observation": "Server banner and fingerprint match a previously catalogued hidden service",
+      "reliability": "HIGH",
+      "confidence": 93
+    },
+    {
+      "id": "DT-EV-00013",
+      "actorId": "ACT-019",
+      "type": "Wallet Relationship",
+      "source": "Blockchain Ledger Analysis",
+      "timestamp": "2024-10-15",
+      "observation": "TLS certificate SAN overlaps with previously flagged clearnet domain",
+      "reliability": "MEDIUM",
+      "confidence": 70
+    },
+    {
+      "id": "DT-EV-00014",
+      "actorId": "ACT-017",
+      "type": "Certificate Relationship",
+      "source": "Certificate Transparency Log",
+      "timestamp": "2025-11-08",
+      "observation": "Posting time distribution consistent with a known persona",
+      "reliability": "HIGH",
+      "confidence": 95
+    },
+    {
+      "id": "DT-EV-00015",
+      "actorId": "ACT-011",
+      "type": "Identifier Reuse",
+      "source": "Certificate Transparency Log",
+      "timestamp": "2025-04-18",
+      "observation": "Posting time distribution consistent with a known persona",
+      "reliability": "LOW",
+      "confidence": 47
+    },
+    {
+      "id": "DT-EV-00016",
+      "actorId": "ACT-012",
+      "type": "Wallet Relationship",
+      "source": "Infrastructure Scan (Authorized)",
+      "timestamp": "2025-08-19",
+      "observation": "TLS certificate SAN overlaps with previously flagged clearnet domain",
+      "reliability": "LOW",
+      "confidence": 31
+    },
+    {
+      "id": "DT-EV-00017",
+      "actorId": "ACT-009",
+      "type": "Infrastructure Correlation",
+      "source": "Infrastructure Scan (Authorized)",
+      "timestamp": "2024-12-18",
+      "observation": "Same PGP fingerprint used across two distinct aliases",
+      "reliability": "LOW",
+      "confidence": 48
+    },
+    {
+      "id": "DT-EV-00018",
+      "actorId": "ACT-010",
+      "type": "Infrastructure Correlation",
+      "source": "Infrastructure Scan (Authorized)",
+      "timestamp": "2024-12-07",
+      "observation": "Same PGP fingerprint used across two distinct aliases",
+      "reliability": "LOW",
+      "confidence": 51
+    },
+    {
+      "id": "DT-EV-00019",
+      "actorId": "ACT-012",
+      "type": "Stylometric Match",
+      "source": "Blockchain Ledger Analysis",
+      "timestamp": "2025-08-04",
+      "observation": "Posting time distribution consistent with a known persona",
+      "reliability": "MEDIUM",
+      "confidence": 79
+    },
+    {
+      "id": "DT-EV-00020",
+      "actorId": "ACT-013",
+      "type": "Stylometric Match",
+      "source": "Infrastructure Scan (Authorized)",
+      "timestamp": "2025-05-19",
+      "observation": "Vocabulary and punctuation pattern consistent with prior persona",
+      "reliability": "MEDIUM",
+      "confidence": 65
+    },
+    {
+      "id": "DT-EV-00021",
+      "actorId": "ACT-020",
+      "type": "Behavioural Pattern",
+      "source": "Dark-Web Crawl",
+      "timestamp": "2025-04-05",
+      "observation": "TLS certificate SAN overlaps with previously flagged clearnet domain",
+      "reliability": "HIGH",
+      "confidence": 97
+    },
+    {
+      "id": "DT-EV-00022",
+      "actorId": "ACT-008",
+      "type": "Behavioural Pattern",
+      "source": "Infrastructure Scan (Authorized)",
+      "timestamp": "2025-02-12",
+      "observation": "Vocabulary and punctuation pattern consistent with prior persona",
+      "reliability": "LOW",
+      "confidence": 36
+    },
+    {
+      "id": "DT-EV-00023",
+      "actorId": "ACT-006",
+      "type": "Stylometric Match",
+      "source": "Marketplace Forum",
+      "timestamp": "2025-07-19",
+      "observation": "Writing style similarity exceeds threshold across forum posts",
+      "reliability": "HIGH",
+      "confidence": 97
+    },
+    {
+      "id": "DT-EV-00024",
+      "actorId": "ACT-014",
+      "type": "Identifier Reuse",
+      "source": "Infrastructure Scan (Authorized)",
+      "timestamp": "2026-03-14",
+      "observation": "Wallet payout pattern matches prior marketplace vendor account",
+      "reliability": "HIGH",
+      "confidence": 88
+    },
+    {
+      "id": "DT-EV-00025",
+      "actorId": "ACT-008",
+      "type": "Certificate Relationship",
+      "source": "Marketplace Forum",
+      "timestamp": "2025-03-09",
+      "observation": "Descriptor inconsistency suggests shared hosting infrastructure",
+      "reliability": "HIGH",
+      "confidence": 87
+    },
+    {
+      "id": "DT-EV-00026",
+      "actorId": "ACT-003",
+      "type": "Infrastructure Correlation",
+      "source": "Infrastructure Scan (Authorized)",
+      "timestamp": "2025-07-03",
+      "observation": "Writing style similarity exceeds threshold across forum posts",
+      "reliability": "LOW",
+      "confidence": 39
+    },
+    {
+      "id": "DT-EV-00027",
+      "actorId": "ACT-020",
+      "type": "Descriptor Match",
+      "source": "Dark-Web Crawl",
+      "timestamp": "2026-04-15",
+      "observation": "Vocabulary and punctuation pattern consistent with prior persona",
+      "reliability": "HIGH",
+      "confidence": 95
+    },
+    {
+      "id": "DT-EV-00028",
+      "actorId": "ACT-010",
+      "type": "Behavioural Pattern",
+      "source": "OSINT Correlation",
+      "timestamp": "2024-06-13",
+      "observation": "Writing style similarity exceeds threshold across forum posts",
+      "reliability": "LOW",
+      "confidence": 50
+    },
+    {
+      "id": "DT-EV-00029",
+      "actorId": "ACT-018",
+      "type": "Infrastructure Correlation",
+      "source": "Certificate Transparency Log",
+      "timestamp": "2024-12-19",
+      "observation": "Vocabulary and punctuation pattern consistent with prior persona",
+      "reliability": "LOW",
+      "confidence": 41
+    },
+    {
+      "id": "DT-EV-00030",
+      "actorId": "ACT-004",
+      "type": "Stylometric Match",
+      "source": "Marketplace Forum",
+      "timestamp": "2025-11-07",
+      "observation": "Posting time distribution consistent with a known persona",
+      "reliability": "LOW",
+      "confidence": 43
+    },
+    {
+      "id": "DT-EV-00031",
+      "actorId": "ACT-007",
+      "type": "Wallet Relationship",
+      "source": "Blockchain Ledger Analysis",
+      "timestamp": "2025-08-01",
+      "observation": "Posting time distribution consistent with a known persona",
+      "reliability": "HIGH",
+      "confidence": 89
+    },
+    {
+      "id": "DT-EV-00032",
+      "actorId": "ACT-013",
+      "type": "Stylometric Match",
+      "source": "Marketplace Forum",
+      "timestamp": "2024-08-02",
+      "observation": "Wallet payout pattern matches prior marketplace vendor account",
+      "reliability": "MEDIUM",
+      "confidence": 78
+    },
+    {
+      "id": "DT-EV-00033",
+      "actorId": "ACT-004",
+      "type": "Stylometric Match",
+      "source": "Blockchain Ledger Analysis",
+      "timestamp": "2024-12-09",
+      "observation": "Writing style similarity exceeds threshold across forum posts",
+      "reliability": "LOW",
+      "confidence": 43
+    },
+    {
+      "id": "DT-EV-00034",
+      "actorId": "ACT-007",
+      "type": "Behavioural Pattern",
+      "source": "Marketplace Forum",
+      "timestamp": "2026-06-02",
+      "observation": "Same PGP fingerprint used across two distinct aliases",
+      "reliability": "MEDIUM",
+      "confidence": 83
+    }
+  ],
+  "timelineEvents": [
+    {
+      "id": "TL-027",
+      "actorId": "ACT-013",
+      "date": "2024-06-05",
+      "category": "Marketplace",
+      "label": "Marketplace account activity change"
+    },
+    {
+      "id": "TL-022",
+      "actorId": "ACT-020",
+      "date": "2024-06-18",
+      "category": "Marketplace",
+      "label": "Marketplace account activity change"
+    },
+    {
+      "id": "TL-019",
+      "actorId": "ACT-003",
+      "date": "2024-08-08",
+      "category": "Identity",
+      "label": "New alias observed"
+    },
+    {
+      "id": "TL-025",
+      "actorId": "ACT-008",
+      "date": "2024-08-12",
+      "category": "Persona",
+      "label": "Potential persona migration flagged"
+    },
+    {
+      "id": "TL-014",
+      "actorId": "ACT-001",
+      "date": "2024-11-18",
+      "category": "Persona",
+      "label": "Potential persona migration flagged"
+    },
+    {
+      "id": "TL-013",
+      "actorId": "ACT-010",
+      "date": "2024-11-24",
+      "category": "Marketplace",
+      "label": "Marketplace account activity change"
+    },
+    {
+      "id": "TL-011",
+      "actorId": "ACT-005",
+      "date": "2024-11-29",
+      "category": "Infrastructure",
+      "label": "Infrastructure relationship detected"
+    },
+    {
+      "id": "TL-015",
+      "actorId": "ACT-009",
+      "date": "2025-02-05",
+      "category": "Blockchain",
+      "label": "Wallet association identified"
+    },
+    {
+      "id": "TL-012",
+      "actorId": "ACT-013",
+      "date": "2025-03-11",
+      "category": "Persona",
+      "label": "Potential persona migration flagged"
+    },
+    {
+      "id": "TL-018",
+      "actorId": "ACT-007",
+      "date": "2025-04-02",
+      "category": "Marketplace",
+      "label": "Marketplace account activity change"
+    },
+    {
+      "id": "TL-009",
+      "actorId": "ACT-001",
+      "date": "2025-06-25",
+      "category": "Blockchain",
+      "label": "Wallet association identified"
+    },
+    {
+      "id": "TL-021",
+      "actorId": "ACT-004",
+      "date": "2025-06-27",
+      "category": "Identity",
+      "label": "New alias observed"
+    },
+    {
+      "id": "TL-007",
+      "actorId": "ACT-013",
+      "date": "2025-07-13",
+      "category": "Persona",
+      "label": "Potential persona migration flagged"
+    },
+    {
+      "id": "TL-002",
+      "actorId": "ACT-011",
+      "date": "2025-08-26",
+      "category": "Marketplace",
+      "label": "Marketplace account activity change"
+    },
+    {
+      "id": "TL-004",
+      "actorId": "ACT-006",
+      "date": "2025-10-18",
+      "category": "Marketplace",
+      "label": "Marketplace account activity change"
+    },
+    {
+      "id": "TL-026",
+      "actorId": "ACT-016",
+      "date": "2025-11-08",
+      "category": "Persona",
+      "label": "Potential persona migration flagged"
+    },
+    {
+      "id": "TL-016",
+      "actorId": "ACT-018",
+      "date": "2025-11-12",
+      "category": "Persona",
+      "label": "Potential persona migration flagged"
+    },
+    {
+      "id": "TL-008",
+      "actorId": "ACT-013",
+      "date": "2025-12-13",
+      "category": "Identity",
+      "label": "New alias observed"
+    },
+    {
+      "id": "TL-006",
+      "actorId": "ACT-001",
+      "date": "2026-01-15",
+      "category": "Persona",
+      "label": "Potential persona migration flagged"
+    },
+    {
+      "id": "TL-010",
+      "actorId": "ACT-015",
+      "date": "2026-01-20",
+      "category": "Marketplace",
+      "label": "Marketplace account activity change"
+    },
+    {
+      "id": "TL-003",
+      "actorId": "ACT-001",
+      "date": "2026-02-21",
+      "category": "Marketplace",
+      "label": "Marketplace account activity change"
+    },
+    {
+      "id": "TL-024",
+      "actorId": "ACT-007",
+      "date": "2026-03-13",
+      "category": "Identity",
+      "label": "New alias observed"
+    },
+    {
+      "id": "TL-001",
+      "actorId": "ACT-012",
+      "date": "2026-04-29",
+      "category": "Marketplace",
+      "label": "Marketplace account activity change"
+    },
+    {
+      "id": "TL-028",
+      "actorId": "ACT-015",
+      "date": "2026-05-09",
+      "category": "Persona",
+      "label": "Potential persona migration flagged"
+    },
+    {
+      "id": "TL-005",
+      "actorId": "ACT-002",
+      "date": "2026-07-06",
+      "category": "Blockchain",
+      "label": "Wallet association identified"
+    },
+    {
+      "id": "TL-020",
+      "actorId": "ACT-020",
+      "date": "2026-08-11",
+      "category": "Marketplace",
+      "label": "Marketplace account activity change"
+    },
+    {
+      "id": "TL-023",
+      "actorId": "ACT-005",
+      "date": "2026-08-24",
+      "category": "Persona",
+      "label": "Potential persona migration flagged"
+    },
+    {
+      "id": "TL-017",
+      "actorId": "ACT-011",
+      "date": "2026-08-25",
+      "category": "Infrastructure",
+      "label": "Infrastructure relationship detected"
+    }
+  ],
+  "personaComparisons": [
+    {
+      "id": "PM-001",
+      "personaA": "ShadowFox (prior)",
+      "personaB": "Shadow_Fox (alias)",
+      "stylometric": 84,
+      "behaviour": 79,
+      "vocabulary": 88,
+      "temporal": 72,
+      "overall": 83,
+      "status": "POTENTIAL MIGRATION"
+    },
+    {
+      "id": "PM-002",
+      "personaA": "LatentSignal",
+      "personaB": "HalcyonBreach",
+      "stylometric": 91,
+      "behaviour": 61,
+      "vocabulary": 62,
+      "temporal": 86,
+      "overall": 75,
+      "status": "PARTIAL SIMILARITY"
+    },
+    {
+      "id": "PM-003",
+      "personaA": "StaticReaper",
+      "personaB": "FrostWraith",
+      "stylometric": 94,
+      "behaviour": 69,
+      "vocabulary": 80,
+      "temporal": 79,
+      "overall": 80,
+      "status": "POTENTIAL MIGRATION"
+    },
+    {
+      "id": "PM-004",
+      "personaA": "QuietCinder",
+      "personaB": "RedlineFox",
+      "stylometric": 62,
+      "behaviour": 80,
+      "vocabulary": 87,
+      "temporal": 66,
+      "overall": 74,
+      "status": "PARTIAL SIMILARITY"
+    },
+    {
+      "id": "PM-005",
+      "personaA": "QuietCinder",
+      "personaB": "NullFerrous",
+      "stylometric": 64,
+      "behaviour": 76,
+      "vocabulary": 85,
+      "temporal": 74,
+      "overall": 75,
+      "status": "PARTIAL SIMILARITY"
+    },
+    {
+      "id": "PM-006",
+      "personaA": "CipherWraith",
+      "personaB": "HalcyonBreach",
+      "stylometric": 81,
+      "behaviour": 87,
+      "vocabulary": 72,
+      "temporal": 49,
+      "overall": 72,
+      "status": "PARTIAL SIMILARITY"
+    },
+    {
+      "id": "PM-007",
+      "personaA": "LatentSignal",
+      "personaB": "ShadowVector",
+      "stylometric": 71,
+      "behaviour": 62,
+      "vocabulary": 81,
+      "temporal": 73,
+      "overall": 72,
+      "status": "PARTIAL SIMILARITY"
+    },
+    {
+      "id": "PM-008",
+      "personaA": "QuietCinder",
+      "personaB": "StaticReaper",
+      "stylometric": 94,
+      "behaviour": 90,
+      "vocabulary": 94,
+      "temporal": 51,
+      "overall": 82,
+      "status": "POTENTIAL MIGRATION"
+    },
+    {
+      "id": "PM-009",
+      "personaA": "MonochromeFox",
+      "personaB": "CipherWraith",
+      "stylometric": 93,
+      "behaviour": 74,
+      "vocabulary": 77,
+      "temporal": 86,
+      "overall": 82,
+      "status": "POTENTIAL MIGRATION"
+    },
+    {
+      "id": "PM-010",
+      "personaA": "VaultCinder",
+      "personaB": "ShadowVector",
+      "stylometric": 68,
+      "behaviour": 73,
+      "vocabulary": 87,
+      "temporal": 53,
+      "overall": 70,
+      "status": "PARTIAL SIMILARITY"
+    },
+    {
+      "id": "PM-011",
+      "personaA": "VaultCinder",
+      "personaB": "IronVector",
+      "stylometric": 86,
+      "behaviour": 83,
+      "vocabulary": 67,
+      "temporal": 48,
+      "overall": 71,
+      "status": "PARTIAL SIMILARITY"
+    },
+    {
+      "id": "PM-012",
+      "personaA": "IronVector",
+      "personaB": "NullFerrous",
+      "stylometric": 69,
+      "behaviour": 70,
+      "vocabulary": 66,
+      "temporal": 86,
+      "overall": 73,
+      "status": "PARTIAL SIMILARITY"
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC-01",
+      "name": "Marketplace Forum",
+      "reliability": 87,
+      "factors": {
+        "history": 40,
+        "consistency": 75,
+        "corroboration": 89,
+        "freshness": 58
+      }
+    },
+    {
+      "id": "SRC-02",
+      "name": "Dark-Web Crawl",
+      "reliability": 58,
+      "factors": {
+        "history": 68,
+        "consistency": 49,
+        "corroboration": 90,
+        "freshness": 35
+      }
+    },
+    {
+      "id": "SRC-03",
+      "name": "Certificate Transparency Log",
+      "reliability": 43,
+      "factors": {
+        "history": 85,
+        "consistency": 77,
+        "corroboration": 82,
+        "freshness": 37
+      }
+    },
+    {
+      "id": "SRC-04",
+      "name": "Blockchain Ledger Analysis",
+      "reliability": 81,
+      "factors": {
+        "history": 62,
+        "consistency": 79,
+        "corroboration": 87,
+        "freshness": 43
+      }
+    },
+    {
+      "id": "SRC-05",
+      "name": "Forum Archive",
+      "reliability": 63,
+      "factors": {
+        "history": 40,
+        "consistency": 74,
+        "corroboration": 81,
+        "freshness": 98
+      }
+    },
+    {
+      "id": "SRC-06",
+      "name": "Infrastructure Scan (Authorized)",
+      "reliability": 84,
+      "factors": {
+        "history": 40,
+        "consistency": 72,
+        "corroboration": 74,
+        "freshness": 55
+      }
+    },
+    {
+      "id": "SRC-07",
+      "name": "OSINT Correlation",
+      "reliability": 85,
+      "factors": {
+        "history": 84,
+        "consistency": 79,
+        "corroboration": 97,
+        "freshness": 81
+      }
+    }
+  ],
+  "marketplaces": [
+    "ObsidianBazaar",
+    "GreyLedger",
+    "VaultXchange",
+    "NightRoute Market",
+    "CipherRow",
+    "DarkAtlas",
+    "ShadowFerry Market",
+    "RedlineMart",
+    "Quietus Market",
+    "IronVeil Bazaar"
+  ],
+  "forums": [
+    "BreachTalk",
+    "CipherNode Forum",
+    "UnderRoot",
+    "Exfil Lounge",
+    "GhostWire Forum",
+    "Zero Ledger Board",
+    "Nullpoint Community",
+    "DarkSignal Forum",
+    "Wraithchan",
+    "Backdoor Bulletin",
+    "SilentStack Forum",
+    "OnionCourt",
+    "LatentRoot",
+    "Coalburn Forum",
+    "Redcell Board"
+  ]
+}
